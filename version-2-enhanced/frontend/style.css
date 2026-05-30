@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; }
+.dashboard { width: min(1100px, 92%); margin: 0 auto; padding: 40px 0; }
+.hero { text-align: center; margin-bottom: 32px; }
+.eyebrow { color: #38bdf8; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; }
+h1 { font-size: 2.5rem; margin: 10px 0; }
+.subtitle { color: #cbd5e1; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 18px; padding: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+.angle-display { font-size: 4rem; font-weight: bold; text-align: center; margin: 20px 0; }
+.angle-display small { display: block; font-size: 0.9rem; color: #94a3b8; }
+input[type="range"] { width: 100%; margin: 20px 0; }
+.button-row { display: flex; gap: 10px; flex-wrap: wrap; }
+button { flex: 1; border: none; padding: 12px 16px; border-radius: 12px; background: #38bdf8; color: #082f49; font-weight: bold; cursor: pointer; }
+button:hover { opacity: 0.9; }
+.log-card ul { padding-left: 20px; color: #cbd5e1; }
