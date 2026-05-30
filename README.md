@@ -1,4 +1,4 @@
-# Smart Servo IoT Controller
+# Smart Servo IoT 
 
 ## Overview
 This repository contains a WiFi-enabled smart servo control system developed as a personal learning project during my free time. The project explores embedded systems, IoT communication, web-based control, and hardware-software integration using Arduino/ESP32.
